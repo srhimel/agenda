@@ -1,8 +1,11 @@
-const Home = () =>{
-    return(
+import { Container } from '@chakra-ui/react'
+
+const Home = () => {
+    return (
         <>
-        hello
-        </>
+            <Container maxW="container.xl" py={10}>
+                hello
+            </Container></>
     )
 }
 
